@@ -120,7 +120,7 @@ class App extends Component {
         <h2>My Todo App</h2>
         <div className="container-content">
           <div className="input-container">
-            <form onSubmit="listen">
+            <form onSubmit={this.handleAddClick}>
               <input
                 type="todo-text"
                 id="myTask"
@@ -128,7 +128,7 @@ class App extends Component {
                 onChange={this.handleTodoInputChange}
                 value={this.state.todoInput}
               />
-              <button type="submit" id="add-todo" onClick={this.handleAddClick}>
+              <button type="submit" id="add-todo">
                 Add Task
               </button>
               {noTodo ? null : <hr />}

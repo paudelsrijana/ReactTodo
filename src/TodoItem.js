@@ -22,7 +22,7 @@ const TodoItem = (props) => {
           {props.todoText}
         </span>
       )}
-      <button type="submit" className=" delete-todo" onClick={props.onRemove}>
+      <button className=" delete-todo" onClick={props.onRemove}>
         Delete
       </button>
     </li>
