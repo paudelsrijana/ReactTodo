@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis&display=swap");
+.todo-container {
+  margin: 0 auto;
+  margin-top: 40px;
+  max-width: 500px;
+  padding: 10px 30px;
+  background-color: rgba(223, 224, 204, 0.829);
+  box-shadow: 0 3px 6px rgb(148, 122, 122);
+}
+.container-content {
+  max-width: 450px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: rgba(209, 224, 204, 0.829);
+  box-shadow: 0 3px 6px rgb(148, 122, 122);
+}
+h3 {
+  margin-top: 10px;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  padding: 7px 0;
+  margin-top: 5px;
+}
+h2 {
+  margin: 0;
+  padding: 5px;
+  margin-bottom: 5px;
+  text-align: center;
+  font-family: "Dosis", sans-serif;
+}
+li {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+.delete-todo {
+  background-color: rgb(255, 83, 71);
+  color: white;
+}
+#add-todo {
+  background-color: green;
+  color: white;
+  margin-left: 7px;
+}
+#clear-todo {
+  background-color: yellow;
+  margin-left: 12px;
+}
+.input-container {
+  text-align: center;
+}
+.todo-items {
+  text-decoration: line-through;
+  color: red;
+}
